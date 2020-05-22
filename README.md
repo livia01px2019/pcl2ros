@@ -1,0 +1,2 @@
+# How to build/run
+Ensure that the package is in a catkin workspace. Modify the path to pcd file according to your file system. Enter `catkin_make` then `rosrun my_pcl_tutorial pcl2ros`. The information will be in a topic named "output" which can be viewed using RViz.

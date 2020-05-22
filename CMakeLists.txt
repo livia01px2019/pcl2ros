@@ -206,5 +206,5 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(example src/pcl2ros.cpp)
-target_link_libraries(example ${catkin_LIBRARIES})
+add_executable(pcl2ros src/pcl2ros.cpp)
+target_link_libraries(pcl2ros ${catkin_LIBRARIES})

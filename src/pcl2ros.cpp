@@ -25,7 +25,6 @@ main (int argc, char** argv)
 
   pcl::PCDReader reader;
   reader.read("/home/livia/catkin_ws/src/my_pcl_tutorial/src/table_scene_lms400.pcd", *cloud);
-  printf("pointcloud width: %d", cloud->width);
 
   // Convert to ROS data type
   sensor_msgs::PointCloud2 output;
